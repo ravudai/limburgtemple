@@ -1,0 +1,149 @@
+@import url("https://fonts.googlepis.com/css?family=Poppins:200,300,400,500,600,700,800,900");
+
+:root {
+  --primary-color: rgba(158, 90, 1, 0.8);
+  --overlay-color: rgba(24, 39, 51, 0.2);
+  --menu-speed: 1s;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #999;
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* VIBOOTHI menu -- START */
+.menu-button {
+  width: 55px;
+  height: 40px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: rgba(0, 49, 88, 0);
+}
+
+.menu-button:hover {
+  -webkit-animation: spin 4s linear forwards;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.santhanam {
+  width: 32px;
+  height: 32px;
+  padding-left: 1px;
+  padding-top: 1px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: sandybrown;
+  -webkit-animation: animatepottu 4s linear forwards;
+  z-index: 4;
+}
+
+.kungumam {
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: red;
+  -webkit-animation: animatepottu 4s linear forwards;
+  z-index: 5;
+}
+
+@-webkit-keyframes animatepottu {
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+.nadu-pattai {
+  position: relative;
+  top: -20px;
+  left: 26px;
+  background: #fff;
+  width: 1px;
+  height: 6px;
+  border-radius: 25%;
+  -webkit-animation: animatepattai 4s linear forwards;
+  z-index: 1;
+}
+
+.mel-pattai {
+  position: relative;
+  top: -25px;
+  left: 26px;
+  background: #fff;
+  width: 1px;
+  height: 6px;
+  border-radius: 25%;
+  -webkit-animation: animatepattai 4s linear forwards;
+  z-index: 2;
+}
+
+.keel-pattai {
+  position: relative;
+  top: -15px;
+  left: 26px;
+  background: #fff;
+  width: 1px;
+  height: 6px;
+  border-radius: 25%;
+  -webkit-animation: animatepattai 4s linear forwards;
+  z-index: 3;
+}
+
+@-webkit-keyframes animatepattai {
+  100% {
+    transform: scaleX(50);
+  }
+}
+
+/* VIBOOTHI menu -- END */
+
+/* NAV BAR specific styles - START */
+/*
+#navbar {
+  display: none;
+}
+*/
+.navbar-font-color {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-background {
+  /*
+  background-image: linear-gradient(rgb(190, 142, 20),
+      yellow,
+      rgb(190, 142, 20));
+      */
+  background-color: rgba(0, 49, 88, 0.5);
+}
+
+.navbar-brand-image {
+  height: 40px;
+}
+
+.language-options {
+  font-size: 0.6rem;
+}
+
+/* NAV BAR specific styles - END */
+
+/* CAROUSEL - START */
+.container {
+  max-height: 600px;
+  background-position: center center;
+}
+
+/* CAROUSEL - END */

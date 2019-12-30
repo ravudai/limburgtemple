@@ -1,0 +1,346 @@
+@import url("https://fonts.googlepis.com/css?family=Lato:200,300,400,500,600,700,800,900");
+@import url("https://fonts.googlepis.com/css?family=Lora:200,300,400,500,600,700,800,900");
+@import url("https://fonts.googlepis.com/css?family=Open Sans:200,300,400,500,600,700,800,900");
+
+:root {
+  --page-background-color: rgba(0, 0, 0, 1);
+  --primary-color: rgba(158, 90, 1, 0.8);
+  --overlay-color: rgba(24, 39, 51, 0.2);
+  --menu-speed: 1s;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 1);
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+.section-caption {
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+/* Extra small devices (phones, 600px and down) - xs */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) - sm */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) - md */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) - lg */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) - xl */
+@media only screen and (min-width: 1200px) {
+}
+
+/* HOME Section Start */
+
+#home,
+#samuhacheithihal,
+#aalayapuraanam,
+#contact {
+  background: rgb(68, 68, 68) !important;
+  margin: 0rem 1rem 1rem 1rem;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+#nihalchithohuppu,
+#keerthanai {
+  background: rgb(207, 207, 207) !important;
+  margin: 0rem 1rem 1rem 1rem;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+#inivaruvana {
+  background: url(../media/images/limburg09.jpg) center center fixed;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+#inivaruvana-opacity {
+  background: rgba(207, 207, 207, 0.7);
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+/* NAVBAR -- START */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  background: rgba(40, 25, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(244, 164, 96);
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-nav .nav-link.curr-page {
+  color: rgb(255, 255, 0);
+}
+
+.offet-before:before {
+  height: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  content: "";
+  display: block;
+}
+
+/* NAVBAR -- END */
+
+/* HEADER SLIDER -- START */
+.carousel-header-item {
+  height: 100vh;
+}
+
+.header-slide-image {
+  height: auto;
+  width: 100vw;
+  opacity: 0.6;
+  background-position: center;
+}
+
+.carousel-header-caption {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  text-transform: uppercase;
+}
+
+.carousel-header-caption .carousel-header-heading-01 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.carousel-header-caption .carousel-header-heading-02 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1rem;
+  color: rgb(244, 164, 96);
+}
+
+/* SLIDER -- END */
+
+/* HOME Section End */
+
+/* Upcoming Events Section Start */
+.jumbotran {
+  border-radius: 0;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: rgb(244, 164, 96);
+  margin: 0 auto 2rem;
+}
+
+.card {
+  margin: 2rem;
+}
+
+.card-header {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(244, 164, 96);
+}
+
+.portfolio img {
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.portfolio img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+.row.no-padding [class*="col-"] {
+  padding: 0;
+}
+
+.portfolio {
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-deck ul {
+  margin: 0px;
+  list-style-image: url("../media/images/vel-01.png");
+}
+
+/* Upcoming Events Section End */
+
+/* Archive section start */
+/* Archive SLIDER -- START */
+.carousel-archive-item {
+  height: 60vh;
+}
+
+.archive-slide-image {
+  height: 70%;
+  background-position: center;
+}
+
+.carousel-archive-caption .carousel-archive-heading-01 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.carousel-archive-caption .carousel-archive-heading-02 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: rgb(244, 164, 96);
+}
+
+/* Archive SLIDER -- END */
+
+/* Archive Section end */
+
+/* aalayapuraanam section start */
+
+.aalayapuraanam {
+  background: url("../media/images/limburg06.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.about-heading-01 {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(244, 164, 96);
+}
+
+.aalayapuraanam-text {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+}
+
+.about-text {
+  font-weight: 200;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* aalayapuraanam section end */
+
+/* keerthanai section start */
+.accordion-header-image {
+  height: auto;
+  width: 20vw;
+  max-height: 5rem;
+  max-width: 5rem;
+}
+
+/* keerthanai section end */
+
+/* Footer section start */
+
+.contact {
+  background-color: rgb(173, 173, 173);
+}
+
+.footer-font {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.socialmedia {
+  padding: 10px 0px 10px 0px;
+  background-color: rgb(119, 119, 119);
+  text-align: center;
+}
+
+.socialmedia-icons {
+  color: rgb(0, 0, 0);
+}
+
+.socialmedia-icons:hover {
+  color: rgb(244, 164, 96);
+  text-decoration: none;
+}
+
+.footer-logo {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 20vw;
+  max-height: 5rem;
+  max-width: 5rem;
+}
+
+.footerdetails {
+  padding: 10px 0px 10px 0px;
+  background-color: rgb(94, 93, 93);
+  color: rgba(255, 255, 255, 1);
+}
+
+.copyright {
+  padding: 10px 0px 10px 0px;
+  background-color: rgb(71, 71, 71);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+
+.horizontal-line {
+  border-top: 1px dashed rgb(244, 164, 96);
+  margin: 0;
+}
+
+.a-link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: underline;
+}
+
+.a-link:hover {
+  color: rgba(244, 164, 96, 1);
+}
+
+/* Footer section End */

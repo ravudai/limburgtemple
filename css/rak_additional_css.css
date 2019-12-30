@@ -1,0 +1,40 @@
+/* HEADER PART -- START */
+
+.header-image-left {
+  grid-area: header-image-left;
+}
+
+.header-first-title {
+  grid-area: header-first-title;
+  font-family: "Concert One", sans-serif;
+  font-size: 2rem;
+}
+
+.header-second-title {
+  grid-area: header-second-title;
+  font-size: 1.3rem;
+}
+
+.header-third-title {
+  grid-area: header-third-title;
+}
+
+.header-image-right {
+  grid-area: header-image-right;
+}
+
+.grid-header {
+  display: grid;
+  grid-template-areas:
+    "header-image-left header-first-title header-image-right"
+    "header-image-left header-second-title header-image-right"
+    "header-image-left header-third-title header-image-right";
+  grid-gap: 1px;
+  padding: 0;
+  text-align: center;
+  color: yellow;
+  background: url("/media/images/Banner-bg.jpg") no-repeat center center/cover;
+  margin: 0;
+}
+
+/* HEADER PART -- END */
